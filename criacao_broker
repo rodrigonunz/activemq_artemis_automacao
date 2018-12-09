@@ -1,0 +1,4 @@
+cd opt/apl
+tar xvzf apache_xxxxx.tar.gz
+
+./artemis create default-broker --clustered --cluster-user rodrigonunes --cluster-password 1234 --host master --replicated --user rodrigonunes --password 1234 --allow-anonymous --require-login --encoding 'UTF-8' 
